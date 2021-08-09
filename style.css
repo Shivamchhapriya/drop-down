@@ -1,0 +1,84 @@
+h1{
+    color:red;
+    font-weight: bold;
+
+}
+
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+
+
+
+.main ul{
+    list-style: none;
+    
+}
+
+.main ul li{
+    background-color: cornflowerblue;
+    width: 210px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main ul li:hover{
+    background-color: yellowgreen;
+}
+
+.main ul ul li:hover{
+    background-color: yellow;
+}
+
+.main ul ul{
+    display: none;
+}
+
+.main ul li:hover > ul{
+    display: block;
+}
+
+
+
+
+
+
+
+.main ul ul ul{
+    margin-left: 210px;
+    top: 0px;
+    position: absolute;
+    
+}
+
+.main ul ul ul li{
+    color: white;
+    background-color: brown;
+}
+
+.main ul ul li{
+    background-color: tomato;
+}
+
+.main ul ul ul li{
+    background-color: violet;
+}
+
+
+
+.main ul ul ul ul li{
+    background-color:gold;
+}
